@@ -11,12 +11,11 @@
         android:id="@+id/magicButton"
         android:layout_width="159dp"
         android:layout_height="94dp"
-        android:layout_marginTop="344dp"
+        android:layout_marginTop="232dp"
         android:onClick="beginMagic"
         android:text="@string/magicButton"
         app:backgroundTint="#BA4A70"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt2" />
 
@@ -78,12 +77,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="330dp"
-        android:layout_height="599dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="237dp"
+        android:layout_height="414dp"
+        android:layout_marginTop="72dp"
         android:contentDescription="da magic genie"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintHorizontal_bias="0.712"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/genie4" />

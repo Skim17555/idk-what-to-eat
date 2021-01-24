@@ -100,7 +100,7 @@ int no;
                 ethnicityList.remove(randomIndex);
                 //if all ethnic group options have been removed, the process is terminated
                 if(ethnicityList.size()==0){
-                    magicButton.setText("Sorry fam we tried :(");
+                    magicButton.setText("Sorry fam you a lost cause :(");
                     yesButton.setVisibility(View.INVISIBLE);
                     noButton.setVisibility(View.INVISIBLE);
                 }
@@ -120,7 +120,7 @@ int no;
                 //remove the declined choice
                 chosenList.remove(randomIndex);
                 if(chosenList.size()==0){
-                    magicButton.setText("Sorry fam we rlly tried :(");
+                    magicButton.setText("Sorry fam you a whole lost cause :(");
                     yesButton.setVisibility(View.INVISIBLE);
                     noButton.setVisibility(View.INVISIBLE);
                 }
