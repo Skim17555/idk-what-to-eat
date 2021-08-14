@@ -8,9 +8,10 @@ public class foodDatabase {
 
     //list of ethnic groups
     private ArrayList<String> ethnicityList;
+    
     //list of food names to each ethnic group
     private ArrayList<String> asianFood;
-    private ArrayList<String> whitePeoplesFood;
+    private ArrayList<String> americanFood;
     private ArrayList<String> hispanicFood;
     private ArrayList<String> fastFood;
 
@@ -22,20 +23,19 @@ public class foodDatabase {
         ethnicityList = new ArrayList<String>();
         //adds names of ethnic groups; will be chosen at random when user clicks button
         ethnicityList.add("Asian food");
-        ethnicityList.add("White people's food");
+        ethnicityList.add("American food");
         ethnicityList.add("Hispanic food");
         ethnicityList.add("Fast food");
 
-
         //arraylists containing different foods
         asianFood = new ArrayList<String>();
-        whitePeoplesFood = new ArrayList<String>();
+        americanFood = new ArrayList<String>();
         hispanicFood = new ArrayList<String>();
         fastFood = new ArrayList<String>();
 
         //methods to add names of dishes to it's corresponding hashmap
         addAsian();
-        addWhitePeoples();
+        addAmerican();
         addFastFood();
         addHispanic();
     }
@@ -48,8 +48,8 @@ public class foodDatabase {
         if(ethnicity.equals("Asian food")){
             return asianFood;
         }
-        else if(ethnicity.equals("White people's food")){
-            return whitePeoplesFood;
+        else if(ethnicity.equals("American food")){
+            return americanFood;
         }
         else if(ethnicity.equals("Hispanic food")){
             return hispanicFood;
@@ -72,12 +72,12 @@ public class foodDatabase {
         asianFood.add("Sushiiiiii");
 
     }
-    //adds white people dishes
-    public void addWhitePeoples(){
-        whitePeoplesFood.add("Jim-n-nicks");
-        whitePeoplesFood.add("Taco Mac burgers");
-        whitePeoplesFood.add("Chicken & waffles");
-        whitePeoplesFood.add("Biscuit & gravy");
+    //adds American dishes
+    public void addAmerican(){
+        americanFood.add("Jim-n-nicks");
+        americanFood.add("Taco Mac burgers");
+        americanFood.add("Chicken & waffles");
+        americanFood.add("Biscuit & gravy");
     }
     public void addHispanic(){
         hispanicFood.add("Tacos");
